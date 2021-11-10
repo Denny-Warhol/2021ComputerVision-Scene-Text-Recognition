@@ -39,6 +39,8 @@ STR 모델을 훈련할 수 있는 labeling된 real data가 부족하기 때문�
 
 ViTSTR의 코드 및 사용 방법은 논문의 저자가 공개한 GitHub repository[3]를 참고하였습니다.(*해당 GitHub repository에서 훈련된 가중치를 제공하고 있지만 자신만의 모델을 훈련해야 합니다. 제공한 가중치를 사용하면 저자의 모델과 똑같은 성능이 나오게 됩니다.)
 
+*Windows 환경에서 Dataloader 관련애서 TypeError: can't pickle Environment objects와 같은 에러가 발생했다면 [issue1](/../../issues/1) 확인
+
 #### 참고자료
 
 *   [1] Vision Transformer for Fast and Efficient Scene Text Recognition[(Link)](https://arxiv.org/abs/2105.08582)
